@@ -14,7 +14,7 @@
 This project addresses two critical challenges in Natural Language Processing for low-resource Indic languages:
 
 ### **Task 1: Temporal Entity Extraction using LLM APIs**
-Building a robust LLM-based system for extracting temporal entities (TIMEX3 time expressions and EVENT tags) from English newswire text, achieving **F1 Score: 0.86** - competitive with state-of-the-art rule-based systems.
+Building a robust LLM-based system for extracting temporal entities (TIMEX3 time expressions and EVENT tags) from English TimeBank data, achieving **F1 Score: 0.86** - competitive with state-of-the-art rule-based systems.
 
 ### **Task 2: Cross-Lingual NER for 7 Indic Languages**
 Generating high-quality parallel NER-annotated datasets for Assamese, Bengali, Gujarati, Malayalam, Marathi, Tamil, and Telugu through cross-lingual projection from Hindi, followed by multilingual model fine-tuning achieving **aggregate F1: 0.789** across all languages.
@@ -294,8 +294,8 @@ Generate high-quality NER-annotated parallel corpora for **7 low-resource Indic 
 
 ### Part 2: Cross-Lingual NER Dataset Quality
 
-| Method | Score |
-|--------|-------|--------|
+| Method | Score |  
+|--------|-------|  
 | Entity Matching | 75.7% | 
 | Tag Consistency | 91.6% | 
 | Token F1 | 82.0% |
