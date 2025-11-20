@@ -5,7 +5,8 @@
 **BTP**  
 **Student:** Samarth Rathore (22075073)  
 **Department:** Computer Science and Engineering (B.Tech)  
-**Note:** To properly see the formatted code download the code files and open through jupyter notebook or collab.
+**Note:** To properly see the formatted code download the code files and open through jupyter notebook or collab.  
+[Presentation Link](https://drive.google.com/file/d/1Fugo65AIBS0w-XILyrP_D5dmq81q82Yf/view?usp=sharing)
 
 ***
 
