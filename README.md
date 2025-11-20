@@ -49,6 +49,8 @@ BTP---Samarth-Rathore/
 |       - Hindi temporal entity model training
 │
 ├── Evaluation_of_finetuned_model_on_our_Dataset.ipynb
+|
+├── Devnagri_finetune.ipynb
 │
 └── README.md
     └── This comprehensive documentation
