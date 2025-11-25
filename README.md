@@ -3,7 +3,9 @@
 # Temporal Entity Extraction and Cross-Lingual NER
 
 **BTP**  
-**Student:** Samarth Rathore (22075073)  
+**Student:** Samarth Rathore  
+under the supervision of Prof. Anil Kumar Singh  
+**Roll.No.** 22075073  
 **Department:** Computer Science and Engineering (B.Tech)  
 **Note:** To properly see the formatted code download the code files and open through jupyter notebook or collab.  
 [Presentation Link](https://drive.google.com/file/d/1Fugo65AIBS0w-XILyrP_D5dmq81q82Yf/view?usp=sharing)
@@ -279,7 +281,27 @@ Generate high-quality NER-annotated parallel corpora for **7 low-resource Indic 
 
 ***
 
+## Part 4: Devanagari Transliteration + Fine-tuning
 
+Converted the entire multilingual NER dataset into the Devanagari script, and then fine-tune the model on the converted dataset.
+
+Goal:
+
+Check whether script normalization (all languages → Devanagari) improves cross-lingual NER performance.
+
+All words from each language were transliterated into Devanagari using indic-transliteration (sanscript).
+
+### Results:  
+
+| Metric        | Score      |
+| ------------- | ---------- |
+| **Precision** | **0.8001** |
+| **Recall**    | **0.7931** |
+| **F1 Score**  | **0.7966** |
+
+Conclusion:
+
+Script normalization to Devanagari improved performance, outperforming the original results (0.7891 F1).
 ***
 
 ## Complete Results Summary
@@ -320,6 +342,14 @@ Generate high-quality NER-annotated parallel corpora for **7 low-resource Indic 
 | **Accuracy** | **96.8%** |
 
 ***
+
+### Part 4: Devanagari Transliteration + Fine-tuning
+| Metric        | Score      |
+| ------------- | ---------- |
+| **F1 Score**  | **0.7966** |
+| **Precision** | 0.8001     |
+| **Recall**    | 0.7931     |
+
 
 ## License
 
